@@ -15,15 +15,15 @@ try:
 except:
     print("Error, enter a numeric input")
 #fs = 1.0
-if fs >= 0.9 :
+if 0.9 <= fs and fs <= 1.0 :
     print("A")
-elif fs >= 0.8 :
+elif 0.8 <= fs and fs < 0.9 :
     print("B")
-elif fs >= 0.7 :
+elif 0.7 <= fs and fs < 0.8 :
     print("C")
-elif fs >= 0.6 :
+elif 0.6 <= fs and fs < 0.7:
     print("D")
 elif fs < 0.6 :
     print("F")
 else:
-    print("Sorry, this is out of range")
+    print("Sorry, this is out of range 0.0-1.0")
